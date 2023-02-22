@@ -18,11 +18,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Install and Enable IIS in Windows with CGI
+- Install PHP Manager for IIS
+- Install Rewrite Module
+- Install PHP 7.3.8 and unzip the contents into C:/PHP
+- Install VC redist.x86.exe.
+- Install MySQL 5.5.62
+   - Typical setup
+   - Open Configuration Wizard (after installed)
+   - Standard Configuartion
+   - Password of your choosing
+- Install osTicket v1.15.8
+   - Download osTicket from the files folder
+   - Extract and copy "upload" folder to c:/inetpub/wwwroot
+   - Inside c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 
 <h2>Installation Steps</h2>
 
